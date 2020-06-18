@@ -29,24 +29,24 @@ section {
 }
 
 #small_box1 {
-    background-color: pink;
+    background-color: #d99ba9;
     color: black;
     margin-top: -31px;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #small_box2 {
-    background-color: red;
+    background-color: #d19457;
     color: white;
     margin-top: -31px;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #small_box3 {
-    background-color: yellow;
+    background-color: #dece7c;
     color: black;
     margin-top: -31px;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 [class*="col-"] {
