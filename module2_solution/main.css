@@ -32,21 +32,21 @@ section {
     background-color: pink;
     color: black;
     margin-top: -31px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 
 #small_box2 {
     background-color: red;
     color: white;
     margin-top: -31px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 
 #small_box3 {
     background-color: yellow;
     color: black;
     margin-top: -31px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 
 [class*="col-"] {
