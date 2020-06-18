@@ -11,24 +11,11 @@ h1 {
     font-size: 1.5em;
 }
 
-div {
+div .col-3 {
     background-color: gray;
     padding: 30px 15px;
     border: 3px solid black;
-    width: 300px;
     margin: 15px;
-}
-
-#box1 {
-    float: left;
-}
-
-#box2 {
-    float: left;
-}
-
-#box3 {
-    float: left;
 }
 
 section {
@@ -44,53 +31,48 @@ section {
 #small_box1 {
     background-color: pink;
     color: black;
+    margin-top: -31px;
 }
 
 #small_box2 {
     background-color: red;
     color: white;
+    margin-top: -31px;
 }
 
 #small_box3 {
     background-color: yellow;
     color: black;
+    margin-top: -31px;
 }
 
-@media (min-width: 992px) {
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
     #box1 {
-        width: 30.9%;
+        width: 30%;
     }
     #box2 {
-        width: 30.9%;
+        width: 30.5%;
     }
     #box3 {
-        width: 30.9%;
+        width: 30.5%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    /* for tap: */
     #box1 {
-        width: 30.9%;
+        width: 46%;
     }
     #box2 {
-        width: 30.9%;
+        width: 46%;
     }
     #box3 {
-        width: 65%;
+        width: 96%;
     }
-}
-
-@media (min-width: 767px) {
-    #box1 {
-        width: 30.9%;
-    }
-    #box2 {
-        width: 30.9%;
-    }
-    #box3 {
-        width: 30.9%;
-    }
-}
-
-
 }
