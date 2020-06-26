@@ -1,0 +1,109 @@
+/** HEADER **/
+
+#header-nav {
+    background-color: #abc4bb;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+
+.navbar-header h1 {
+    /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #794646;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px;
+    line-height: .75;
+}
+
+.navbar-header a:hover {
+    text-decoration: none;
+}
+
+
+/* Drop down menu */
+
+#nav-list {
+    margin-top: 20px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+
+/* Main content*/
+
+#main-content h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.container .jumbotron {
+    background-color: #abc4bb;
+    border-radius: 0%;
+    padding: 10px;
+}
+
+.jumbotron h3 {
+    text-align: center;
+    color: black;
+    font-size: 1.8em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+
+/* Responsiveness */
+
+@media (min-width: 1200px) {
+    .container .jumbotron {
+        margin: 0 -20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container .jumbotron {
+        margin: 0px -20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container .jumbotron {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container .jumbotron {
+        margin: 40px;
+    }
+}
